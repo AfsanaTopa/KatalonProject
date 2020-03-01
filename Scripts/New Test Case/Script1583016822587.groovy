@@ -16,13 +16,13 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-//WebUI.openBrowser('')
-//
-//WebUI.navigateToUrl('https://www.facebook.com/')
-//System.out.println(WebUI.getUrl())
-//
-//WebUI.click(findTestObject('Object Repository/fbv/Page_Facebook - Log In or Sign Up/input_Password_u_0_b'))
-//
-//WebUI.closeBrowser()
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('https://www.facebook.com/')
+System.out.println(WebUI.getUrl())
+
+WebUI.click(findTestObject('Object Repository/fbv/Page_Facebook - Log In or Sign Up/input_Password_u_0_b'))
+
+WebUI.closeBrowser()
 
 System.out.println("WORKING TOPA")
